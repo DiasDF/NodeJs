@@ -1,5 +1,66 @@
 # NodeJs
 Repositório de testes e aprendizados em NodeJs
+**Next.js** e **Nest.js** são dois frameworks com nomes semelhantes, mas com propósitos muito diferentes. Vou explicar as principais diferenças entre eles:
+
+1. **Next.js**:
+   - **O que é?** O **Next.js** é um framework minimalista para criar aplicações React renderizadas no servidor (SSR). Ele é usado principalmente para desenvolvimento front-end.
+   - **Principais características:**
+     - **Renderização no servidor:** O **Next.js** oferece renderização no servidor, o que melhora o SEO e a experiência do usuário.
+     - **Roteamento fácil:** O roteamento é simples e intuitivo.
+     - **Suporte a CSS-in-JS:** Facilita a estilização de componentes.
+   - **Popularidade:** É amplamente adotado e possui uma grande comunidade¹⁴.
+
+2. **Nest.js**:
+   - **O que é?** O **Nest.js** é um framework para construir aplicativos eficientes no lado do servidor. Ele é voltado para o desenvolvimento back-end.
+   - **Principais características:**
+     - **Estrutura modular:** O **Nest.js** segue uma estrutura modular, facilitando a organização do código.
+     - **TypeScript:** É baseado em TypeScript, o que pode exigir um aprendizado adicional para quem não está familiarizado com a linguagem.
+     - **Integração com bancos de dados:** Suporta integração fácil com bancos de dados como MongoDB ou PostgreSQL.
+   - **Popularidade:** Possui uma comunidade em crescimento²³.
+
+Em resumo, escolha o **Next.js** para desenvolvimento front-end com foco em renderização no servidor e facilidade de uso. Opte pelo **Nest.js** se precisar construir sistemas back-end escaláveis e robustos com TypeScript. Ambos têm suas vantagens, dependendo das suas necessidades específicas! 😊
+
+Fonte: conversa com o Copilot, 18/08/2024
+(1) Next.js VS Nest.js – Top 5 Differences & What to Use - codedamn. https://codedamn.com/news/web-development/next-js-vs-nest-js.
+(2) Next.js VS Nest.js – Difference Between Next.JS and NestJS. https://nomadicsoft.io/servnext-js-vs-nest-js-difference-between-next-js-and-nestjs/.
+(3) How to Choose NestJS vs NextJS for Modern Web Development. https://purecode.ai/blogs/nestjs-vs-nextjs.
+(4) NestJS vs NextJS: When to Choose Each Framework | Brilworks. https://www.brilworks.com/blog/nestjs-vs-nextjs/.
+Claro! Vamos explorar o **NestJS** e o **EJS** e entender suas características, diferenças e semelhanças:
+
+1. **NestJS**:
+   - **O que é?** O **NestJS** é um framework escrito em **TypeScript** para servidores que executam o **Node.js**. Ele oferece um conjunto de classes, funções, tipos e padrões para auxiliar e organizar o desenvolvimento de aplicações no servidor¹.
+   - **Para que serve?** O **NestJS** é usado principalmente para criar aplicações no servidor, como **APIs HTTP**, **Aplicações Web**, **Microserviços gRPC** ou **Aplicações Web Socket**. Ele combina o padrão de projeto do framework front-end **Angular** com a popularidade do já conhecido **ExpressJS**¹.
+   - **Pontos fortes:**
+     - Integração com o **ExpressJS**.
+     - Facilita a organização e escalabilidade.
+     - Suporte a **TypeScript**.
+   - **Pontos fracos:**
+     - Curva de aprendizado inicial.
+     - Requer conhecimento em **TypeScript**.
+
+2. **EJS (Embedded JavaScript Templating)**:
+   - **O que é?** O **EJS** é um mecanismo de modelagem usado pelo **Node.js** para criar modelos HTML com o mínimo de código. Ele permite injetar dados no modelo HTML no lado do cliente e produzir o HTML final².
+   - **Para que serve?** O **EJS** é usado para renderizar templates HTML dinamicamente, tornando mais fácil a criação de páginas da web com dados variáveis.
+   - **Pontos fortes:**
+     - Simplicidade e facilidade de uso.
+     - Integração com o **Node.js**.
+     - Injeção de dados no modelo.
+   - **Pontos fracos:**
+     - Limitado em recursos avançados.
+     - Não é tão popular quanto outras alternativas.
+   
+Em resumo, o **NestJS** é um framework completo para desenvolvimento no servidor.
+
+Fonte: conversa com o Copilot, 18/08/2024
+(1) O que é NestJS? E para que serve NestJS? - Hcode. https://www.hcode.com.br/blog/o-que-e-nestjs-e-para-que-serve-nestjs.
+(2) NestJS: Uma estrutura NodeJS linda e trabalhada. https://www.hiago.me/2018/05/13/nestjs-uma-estrutura-nodejs-linda-e-trabalhada/.
+(3) Como usar Ejs em JavaScript? – Acervo Lima. https://acervolima.com/como-usar-ejs-em-javascript/.
+(4) O Que é Nest.js? Tudo Sobre Esse Leve Framework JavaScript - Kinsta. https://kinsta.com/pt/base-de-conhecimento/nestjs/.
+(5) Como testar services em NestJS com Jest – LuizTools. https://www.luiztools.com.br/post/como-testar-services-em-nestjs-com-jest/.
+(6) Análise SWOT: Como identificar forças, fraquezas, oportunidades e .... https://www.ipropose.com.br/analise-swot-como-identificar-forcas-fraquezas-oportunidades-e-ameacas/.
+(7) Análise SWOT: Como Identificar Forças, Fraquezas, Oportunidades e .... https://mediamanager.com.br/empreendedorismo/analise-swot-guia-completo/.
+(8) 20 Exemplos de Pontos Fortes e Fracos para Entrevistas. https://curriculumprofissional.com.br/exemplos-de-pontos-fortes-e-fracos-para-entrevistas/.
+
 
 Intensivão FC - Nest.js do zero aos microsserviços - Video Highlights
 
